@@ -22,11 +22,6 @@ function radixSort(list,len,radix){
 			var item	= list[j],
 				key		= Math.floor(item/rate)%radix,
 				undefined;
-			/*
-			if(key<1){
-				key = 0;
-			}
-			*/
 			
 			bucket[key]++;			
 		}
