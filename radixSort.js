@@ -66,3 +66,10 @@ function arrayCopy(sourceArr,destArr){
 		destArr[i] = sourceArr[i];
 	}
 }
+
+
+//examples
+var list = [123,79,234,678,25,456,1];
+console.log('排序前:',list);//output   排序前:123,79,234,678,25,456,1
+radixSort(list,3);
+console.log('排序后:',list);//output   排序后:1,25,79,123,234,456,678
